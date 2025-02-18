@@ -1,0 +1,43 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>60</y><w>170</w><h>50</h></coordinates><panel_attributes>Requête web
+--
+lire</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>170</y><w>140</w><h>40</h></coordinates><panel_attributes>/Requête/
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>100</y><w>110</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>200</y><w>80</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;120</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>210</y><w>70</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>50;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>320</y><w>210</w><h>60</h></coordinates><panel_attributes>Réponse
+--
+interagir avec l'utilisateur
+afficher le résultat du programme
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>180</y><w>140</w><h>40</h></coordinates><panel_attributes>/Fonction/
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>20</y><w>160</w><h>90</h></coordinates><panel_attributes>Requête base de données
+--
+lire
+supprimer
+ajouter</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>100</y><w>100</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>160</y><w>210</w><h>90</h></coordinates><panel_attributes>Commune
+--
+id_commune : int
+nom_commune : string
+liste_coordonnees : liste[liste[float]]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>320</y><w>210</w><h>80</h></coordinates><panel_attributes>Parcelle
+--
+id_parcelle : int
+id_commune : int
+liste_segments : liste[segments]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>470</y><w>210</w><h>80</h></coordinates><panel_attributes>Segment
+--
+point1 : list[float]
+point2 : list[float]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>910</x><y>240</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=-
+m1=1..n
+m2=1
+belongs to</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>390</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=-
+m1=1..n
+m2=1..2
+belongs to </panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>320</y><w>210</w><h>80</h></coordinates><panel_attributes>Permis de construire
+--
+id_permis : int
+liste_parcelle : liste[parcelles]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>350</y><w>120</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..n
+m2=1..n
+concerns </panel_attributes><additional_attributes>100;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>170</y><w>210</w><h>60</h></coordinates><panel_attributes>--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>180</y><w>80</w><h>40</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>60;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>180</y><w>100</w><h>40</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>220</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>220</y><w>180</w><h>120</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>160;100;10;10</additional_attributes></element></diagram>

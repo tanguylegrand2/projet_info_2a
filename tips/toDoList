@@ -1,0 +1,27 @@
+ To do list : 
+
+POUR RENDU DOSSIER ANALYSE  :
+https://fr.overleaf.com/7217161827smjfhrngskqr 
+
+A FAIRE : 
+Correction du rapport : 
+Partie intro: 
+-refaire l'introduction => passage trop rapide
+Partie analyse fonctionnelle :
+Diagramme des données : stocker toutes les parcelles prends bcp de place. Il faut avoir en base ou rechercher. Mettre parcelle adjacente et qui sont en limite de commune dans la base.
+Diagramme de classe : mettre un titre, mettre cardinalité + nom sur association, éviter redondance : liste_parcelle + lien.
+Diagramme de Gant :  refaire beaucoup détaillée.
+
+Rapport final : 
+Ajout de partie : 
+- Contexte de l'application = - Quels sont les utilisateurs ? , à quelle besoin répond-elle ? L'architecture macro de l'appli (est-ce un module python ? Un script ? Une appli et server qui communique via requête HTTP ? Schéma architecture qui fait lien entre les différents composant de votre application comme votre code la base de donnée)
+
+- Problème de plan avec base de donnée
+
+
+
+
+
+ 
+
+ 

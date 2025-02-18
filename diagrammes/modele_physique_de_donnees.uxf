@@ -1,0 +1,7 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>200</x><y>100</y><w>210</w><h>190</h></coordinates><panel_attributes>Base de données
+--
+-id_commune : inst
+-nom_commune : string
+-liste_coordonnees : list(list)
+-communes_adjacentes : list(id)
+--</panel_attributes><additional_attributes></additional_attributes></element></diagram>

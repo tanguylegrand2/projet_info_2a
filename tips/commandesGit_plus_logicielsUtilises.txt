@@ -1,0 +1,18 @@
+logiciels
+
+overleaf
+umletino
+vs code
+gitlab
+
+_____________
+commandes git
+
+pour envoyer des modifs :
+
+- git add . (sélectionne tout le dossier) ou git add nomDuFichierAEnvoyer
+- git commit -m "commentaire sur le commit"
+- git push
+
+pour récupérer la dernière version :
+- git pull

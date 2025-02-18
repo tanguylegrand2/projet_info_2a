@@ -1,0 +1,39 @@
+Le service statistique du ministère de la Transition écologique gère « Sitadel », le répertoire
+des autorisations d’urbanismes. À partir de ce répertoire le service publie des chiffres sur le
+nombre de permis de construire (PC) autorisés et le nombre de logements dont la construction
+est autorisée sur chaque commune.
+Une demande de PC doit se faire sur un terrain s’étendant sur une ou plusieurs parcelles
+cadastrales contiguës. Il est possible que ces parcelles se trouvent sur des communes différentes
+voire sur des départements différents. Lorsque c’est le cas, une demande de PC doit être faite sur
+chaque commune concernée. Cette situation peut donc engendrer des doublons au niveau du
+décompte des PC et des logements autorisés.
+Ce phénomène existe mais à l’heure actuelle on ignore s’il est fréquent et si les erreurs
+engendrées ont un poids notable sur les chiffres publiés au niveau communal. Le but de ce projet
+est d’apporter des outils qui aideront à l’étude de ce phénomène.
+Pour détecter les PC à cheval sur plusieurs communes, il convient de connaître les parcelles
+cadastrales qui sont en bordure de commune, puis de trouver les PC se trouvant sur ces parcelles
+et enfin déterminer lesquels de ces PC se trouvent sur des parcelles contiguës afin de voir s’il
+s’agit de la même construction ou non.
+
+Aujourd'hui, les données sont de plus en plus accessibles à mesure que les technologies de l'information et de la communication se développent.
+Ainsi, l'État français met à disposition un grand nombre de données à disposition du public,
+permettant ainsi à celui-ci d'avoir accès à une information de plus en plus importante.
+Un enjeu majeur est de contrôler la qualité de ces données. Il est possible pour n'importe qui, particulier comme professionnel, de développer des applications permettant d'améliorer la qualité des données mises à disposition.
+
+Par exemple, le service statistique du ministère de la Transition écologique met à disposition du public Sitadel, la base de données des permis de construire (PC) et autres autorisations d'urbanisme.
+Ce répertoire permet de publier des chiffres sur le nombre de PC autorisés et, donc, de connaître facilement le nombre de logements en construction.
+Cependant, un PC pouvant s'étendre sur plusieurs parcelles couvrant plusieurs communes, voire plusieurs départements, il est très compliqué de ne pas avoir de redondance dans la base.
+Les PC peuvent, par exemple, se retrouver dans la base dans deux départements différents.
+
+Ce phénomène est connu mais il pourrait être intéressant de le quantifier pour connaître sa fréquence, pour savoir si les erreurs engendrées ont un impact sur les chiffres de logements nouveaux publiés au niveau communal.
+
+Notre application doit tout d'abord permettre de constituer une base de données pour enregistrer les parcelles et communes contiguës.
+In fine, en s'appuyant sur cette base, elle doit pouvoir sortir les PC à cheval sur plusieurs communes. 
+Nous nous appuyons pour construire notre base sur les fichiers GeoJSON du site https://cadastre.data.gouv.fr/datasets/cadastre-etalab.
+
+
+
+
+-résumer sujet
+- site donnée : https://cadastre.gouv.fr/scpc/accueil.do
+-but

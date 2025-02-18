@@ -1,0 +1,6 @@
+Syntaxe_possible_API:
+
+https://geo.api.gouv.fr/communes?code=41072&fields=code,nom,contour,siren,codeEpci,epci,codeDepartement,departement,codeRegion,region,centre,mairie,bbox,surface,population,codesPostaux,zone
+
+Mettre dans le fichier config, le numero du département et l'année dont les communes sont dans la base de données.
+Extraire le numero du departement dans l'identifiant de la commune et vérifier si c'est en base ou pas et appeller la fonction appropriée.
